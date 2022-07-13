@@ -1,0 +1,15 @@
+//
+// Copyright (c) 2022, kW
+// All Rights Reserved
+//
+// History:
+//   4 Jul 22   Dylan   Creation
+//
+
+--------------------------------------------------------------------------
+-- See https://project-haystack.dev/doc/docHaystack/Defs
+-- def: ^kWUtilityConnCustomTag
+-- is: ^marker
+-- doc: "A custom marker tag this extension defines"
+--------------------------------------------------------------------------
+

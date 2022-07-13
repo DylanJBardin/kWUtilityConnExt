@@ -1,0 +1,23 @@
+//
+// Copyright (c) 2022, kW
+// All Rights Reserved
+//
+// History:
+//   4 Jul 22   Dylan   Creation
+//
+--------------------------------------------------------------------------
+def: ^kWUtilityConnConn
+is: ^conn
+connFeatures: {learn, pollMode:"buckets"}
+doc:
+  KWUtilityConn connector.
+--------------------------------------------------------------------------
+defx: ^uri
+tagOn: ^kWUtilityConnConn
+--------------------------------------------------------------------------
+defx: ^username
+tagOn: ^kWUtilityConnConn
+--------------------------------------------------------------------------
+defx: ^password
+tagOn: ^kWUtilityConnConn
+--------------------------------------------------------------------------

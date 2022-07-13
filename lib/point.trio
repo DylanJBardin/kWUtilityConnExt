@@ -1,0 +1,34 @@
+//
+// Copyright (c) 2022, kW
+// All Rights Reserved
+//
+// History:
+//   4 Jul 22   Dylan   Creation
+//
+
+--------------------------------------------------------------------------
+def: ^kWUtilityConnPoint
+is: ^connPoint
+doc:
+  Point which synchronizes data via the KWUtilityConn connector.
+--------------------------------------------------------------------------
+def: ^kWUtilityConnConnRef
+is: ^ref
+of: ^kWUtilityConnConn
+tagOn: ^kWUtilityConnPoint
+doc:
+  Used on a proxy point to reference its parent `kWUtilityConnConn`
+--------------------------------------------------------------------------
+def: ^kWUtilityConnCur
+is: ^str
+tagOn: ^kWUtilityConnPoint
+doc:
+  KWUtilityConn address to use for reading the current value.
+--------------------------------------------------------------------------
+def: ^kWUtilityConnHis
+is: ^str
+tagOn: ^kWUtilityConnPoint
+doc:
+  KWUtilityConn address to use for reading historical data.
+--------------------------------------------------------------------------
+

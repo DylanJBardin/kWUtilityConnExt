@@ -1,0 +1,21 @@
+//
+// Copyright (c) 2022, kW
+// All Rights Reserved
+//
+// History:
+//   4 Jul 22   Dylan   Creation
+//
+
+--------------------------------------------------------------------------
+-- See https://skyfoundry.com/doc/docSkySpark/Exts#axonFuncs
+-- name:kWUtilityConnAxon
+-- func
+-- doc:
+--  Test stub function
+-- src:
+    (res) => do
+        hex: (res.ioReadJson({safeNames}).toGrid[0]->authorizations).findAll(r=>r->is_archived==false).findAll(r=>r->uid=="284414")
+        return hex
+    end
+--------------------------------------------------------------------------
+
